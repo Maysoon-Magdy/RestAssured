@@ -1,0 +1,10 @@
+<suite name="API Test Suite">
+    <listeners>
+        <listener class-name="com.Hooks.hooks"/>
+    </listeners>
+    <test name="API Tests">
+        <classes>
+            <class name="com.Tests.ApiTests.CreateUser"/>
+        </classes>
+    </test>
+</suite>
